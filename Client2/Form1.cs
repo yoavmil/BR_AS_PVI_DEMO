@@ -8,8 +8,7 @@ namespace Client2
     {
         private Service service;
         private Cpu cpu;
-        private Variable flag;
-        private Variable counter;
+        private Variable flag, counter;
 
         public Form1()
         {
@@ -68,7 +67,6 @@ namespace Client2
                 flag.Value = !flag.Value;
             }
         }
-
 
         private void flagVariable_Connected(object sender, PviEventArgs e)
         {
