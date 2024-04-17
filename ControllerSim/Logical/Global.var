@@ -1,0 +1,4 @@
+VAR
+	gCounter : USINT;
+	flag : BOOL := TRUE;
+END_VAR
