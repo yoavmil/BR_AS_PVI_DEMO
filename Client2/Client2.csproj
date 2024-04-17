@@ -35,7 +35,7 @@
   <ItemGroup>
     <Reference Include="BR.AN.PviServices, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\BrAutomation\PVI\V4.12\PVI\PviServices\VS2012\BR.AN.PviServices.dll</HintPath>
+      <HintPath>..\Dlls\BR.AN.PviServices.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
