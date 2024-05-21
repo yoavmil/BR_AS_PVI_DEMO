@@ -76,5 +76,3 @@ After ther'e connected, we can connect to the global variables `flag` and `gCoun
 
 
 
-
-

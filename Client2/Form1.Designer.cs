@@ -51,7 +51,7 @@
             this.connectVarBtn.Name = "connectVarBtn";
             this.connectVarBtn.Size = new System.Drawing.Size(116, 23);
             this.connectVarBtn.TabIndex = 1;
-            this.connectVarBtn.Text = "connect variable";
+            this.connectVarBtn.Text = "print";
             this.connectVarBtn.UseVisualStyleBackColor = true;
             this.connectVarBtn.Click += new System.EventHandler(this.conectVarBtn_Click);
             // 
