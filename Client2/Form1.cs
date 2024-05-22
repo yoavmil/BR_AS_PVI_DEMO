@@ -29,6 +29,9 @@ namespace Client2
                 statusLbl.Text = "Service connected";
                 cpu = new Cpu(service, "cpu");
                 cpu.Connected += Cpu_Connected;
+                // the connection type is important for some controller types, IDK why
+                cpu.Connection.DeviceType = DeviceType.ANSLTcp;
+                cpu.Connection.ANSLTcp.DestinationIpAddress = "127.0.0.1";
                 cpu.Connect();
             }
             else
